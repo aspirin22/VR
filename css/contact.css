@@ -72,9 +72,11 @@ section.home {
 
 .contact-form {
   position: relative;
-  background: #f9f9f9;
+  background: #f7e9e9;
+  opacity: 0.8;
   width: calc(100% - 400px);
   padding: 60px 40px 20px;
+  border-radius: 2%;
 }
 
 .contact-form form {
@@ -128,7 +130,9 @@ section.home {
 
 .contact-info {
   width: 350px;
-  background: #f9f9f9;
+  background: #f7e9e9;
+  opacity: 0.8;
+  border-radius: 2%;
   padding: 60px 40px 20px;
 }
 
