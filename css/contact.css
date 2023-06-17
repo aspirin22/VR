@@ -156,6 +156,11 @@ section.home {
   color: #111;
 }
 
+.iframe-map {
+  opacity: 0.8;
+  border-radius: 2%;
+}
+
 @media (max-width: 1068px) {
   section {
     padding: 100px 40px;
