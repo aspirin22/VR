@@ -66,9 +66,9 @@ header {
   cursor: pointer;
   z-index: 888;
 }
-.portfolio .item.scaled {
+/* .portfolio .item.scaled {
   transform: scale(1.28);
-}
+} */
 
 .portfolio .item img {
   width: 100%;
