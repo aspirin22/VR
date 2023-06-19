@@ -99,7 +99,7 @@ header {
 }
 
 .nav_link {
-  color: var(--clr-text);
+  color: #c6363c;
   text-transform: capitalize;
   text-decoration: none;
 }
@@ -114,7 +114,7 @@ header {
 
 .nav_link:hover,
 .nav_link:focus {
-  color: var(--clr-accent);
+  color: var(--clr-text);
 }
 
 .secondary-images {
@@ -243,6 +243,12 @@ section {
   body {
     margin: 0;
   }
+  .nav_link {
+    color: #0c4076;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
   .main-grid {
     display: grid;
@@ -333,6 +339,12 @@ section {
 @media (min-width: 1200px) {
   main::after {
     grid-column: 3 / 4;
+  }
+  .nav_link {
+    color: #f0f2f3;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   .nav,
