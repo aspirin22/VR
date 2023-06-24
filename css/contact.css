@@ -27,22 +27,36 @@ h1 {
 
 p {
   margin: 20px 0 10px;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
 }
 
+.home-button a {
+  color: #161616;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.home-button :hover {
+  color: #832f2f;
+}
+
+.contact-text {
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(49, 49, 49);
+}
 section {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   padding: 100px;
   margin-top: 60px;
 }
 
-section.home {
+/* section.home {
   flex-direction: row;
   margin-top: 0;
-}
+} */
 
 /* BUTTON */
 .btn {
@@ -159,6 +173,7 @@ section.home {
 .iframe-map {
   opacity: 0.8;
   border-radius: 2%;
+  margin: auto;
 }
 
 @media (max-width: 1068px) {
@@ -190,9 +205,15 @@ section.home {
     margin-top: 20px;
     padding: 30px 30px 20px;
   }
+  .iframe-map {
+    opacity: 0.8;
+    border-radius: 2%;
+    height: 450px;
+    width: 400px;
+  }
 }
 
-#button-home {
+/* #button-home {
   position: relative;
   top: 2em;
   left: 50%;
@@ -204,4 +225,4 @@ section.home {
 
 #button-home a {
   text-decoration: none;
-}
+} */
