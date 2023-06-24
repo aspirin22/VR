@@ -23,7 +23,7 @@
       crossorigin="anonymous"></script>
     <!-- logo -->
     <link rel="icon" type="image/x-icon" href="/img/logo.jfif" />
-    <title>About</title>
+    <title>Book Now</title>
   </head>
   <body>
     <header>
@@ -39,6 +39,35 @@
     <div class="under-construction">
       <img src="/img/under-construction-2891888_1920.jpg" alt="" />
     </div>
+
+    <section>
+      <h1 class="text-center">Choise one of following option and we will return as soon possible</h1>
+
+      <div class="text-center">
+        <h2 class="text-warning m-3">Pick your date</h2>
+        <input class="calendar" type="date" />
+        <h2 class="text-primary m-2" for="guests">Guests</h2>
+        <select class="form-select form-select-lg m-3" aria-label=".form-select-lg example">
+          <option value="1">1 Adult</option>
+          <option value="2">1 Adult + 1 Child</option>
+          <option value="3">1 Adult + 2 Childs</option>
+          <option value="4">1 Adult + 3 Childs</option>
+          <option value="5">2 Adults</option>
+          <option value="6">2 Adults + 1 Child</option>
+          <option value="7">2 Adults + 2 Childs</option>
+          <option value="8">3 Adults</option>
+          <option value="9">4 Adults</option>
+          <!-- Add more options if needed -->
+
+          <!-- post method -->
+          <form method="POST" action="send_email.php">
+            <!-- Your form fields here -->
+
+            <input class="text-center p-2 m-3" type="submit" value="Send" />
+          </form>
+        </select>
+      </div>
+    </section>
     <!-- script -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
